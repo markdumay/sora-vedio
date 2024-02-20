@@ -1,7 +1,7 @@
 [navigation]
     anchor = true
-    logo = "/img/logo_icon.svg"
-    color = "body"
+    logo = "https://res.cloudinary.com/dmmgrhix0/image/upload/v1708445269/sora-video/epkhdbnatvc1ij9xjk0b.jpg"
+    # color = "body"
     fixed = true
     overlay = false
     overlayMode = "dark"
@@ -13,3 +13,28 @@
     toc = true
     sidebar = true
     size = "md"
+[main]
+    separator = "-"
+    description = "11111Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5."
+    enableDarkMode = true
+    modes = ["light", "dark"]
+    canonifyAssetsURLs = false
+    endorse = true
+    footerBelowFold = false
+    loading = "lazy"
+    breakpoint = "md"
+    [main.externalLinks]
+        cue = false
+        tab = false
+    [main.build]
+        transpiler = "libsass"
+[home]
+    sections = ["video"]
+    fullCover = false
+    centerHeadline = false
+    style = ""
+    [home.feature]
+        orientation = "horizontal"
+        color = "primary"
+        width = 4
+        align = "start"

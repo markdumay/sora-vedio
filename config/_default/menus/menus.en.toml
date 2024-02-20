@@ -1,29 +1,33 @@
-[[sample]]
+[[main]]
+  name = "Video"
+  pageRef = "/video/"
+  weight = 20
+
+[[main]]
+  name = "Tags"
+  pageRef = "/tags/"
+  weight = 40
+
+[[main]]
   name = "About"
   pageRef = "/about/"
   weight = 10
-  [sample.params]
-    alias = true
 
-[[sample]]
-  name = "Tags"
-  pageRef = "/tags/"
-  weight = 30
 
-[[sample]]
-  parent = "Guides"
-  name = "Getting started"
-  pageRef = "/guides/editing/"
+[[social]]
+  name = "X"
+  pre = "fab fa-twitter"
+  url = "https://twitter.com/gusibix"
   weight = 10
 
-[[sample]]
-  parent = "Guides"
-  name = "Adding packages"
-  pageRef = "/guides/packages/"
+[[social]]
+  name = "GitHub"
+  pre = "fab fa-github"
+  url = "https://github.com/gusibi/"
   weight = 20
 
-[[sample]]
-  parent = "Guides"
-  name = "Optimization"
-  pageRef = "/guides/optimization/"
+[[social]]
+  name = "Medium"
+  pre = "fab medium"
+  url = "https://medium.com/"
   weight = 30
