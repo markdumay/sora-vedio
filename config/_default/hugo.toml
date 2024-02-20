@@ -62,14 +62,14 @@ home = ["HTML", "RSS", "REDIR"]
   [services.googleAnalytics]
     ID = "G-T85PPZ36GN"
 
-[outputFormats]
-  [outputFormats.XML]
-    isPlainText = false
-    mediaType = "application/xml"
-    isHtml = false
-    noUgly = true
-    permalinkable = false
-    name = "xml"
+#[outputFormats]
+#  [outputFormats.XML]
+#    isPlainText = false
+#    mediaType = "application/xml"
+#    isHtml = false
+#    noUgly = true
+#    permalinkable = false
+#    name = "xml"
 
 [minify]
   [minify.tdewolff.js]
