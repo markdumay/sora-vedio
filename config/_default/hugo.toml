@@ -1,0 +1,81 @@
+resourcedir = '../resources/'
+title = "Hinode"
+copyright = "Copyright © 2024 Mark Dumay."
+paginate = 9
+enableGitInfo = true
+
+# additional settings
+baseURL = "https://www.sora-vedio.com/"
+canonifyURLs = false
+enableEmoji = true
+enableRobotsTXT = true
+enableInlineShortcodes = true
+
+
+
+timeout = "180s"
+
+languageCode = "en-us"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[outputFormats.REDIR]
+mediaType = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+
+[mediaTypes."text/netlify"]
+delimiter = ""
+
+[outputs]
+home = ["HTML", "RSS", "REDIR"]
+
+[build]
+  writeStats = true
+  
+[taxonomies]
+  tag = 'tags'
+
+[privacy]
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+  [services.twitter]
+    disableInlineCSS = true
+  [services.googleAnalytics]
+    ID = "G-T85PPZ36GN"
+
+[outputFormats]
+  [outputFormats.XML]
+    isPlainText = false
+    mediaType = "application/xml"
+    isHtml = false
+    noUgly = true
+    permalinkable = false
+    name = "xml"
+
+[minify]
+  [minify.tdewolff.js]
+    keepVarNames = true
+    precision = 0
+    version = 2022
+  [minify.tdewolff.html]
+    keepWhitespace = true

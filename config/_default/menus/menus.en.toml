@@ -1,0 +1,29 @@
+[[sample]]
+  name = "About"
+  pageRef = "/about/"
+  weight = 10
+  [sample.params]
+    alias = true
+
+[[sample]]
+  name = "Tags"
+  pageRef = "/tags/"
+  weight = 30
+
+[[sample]]
+  parent = "Guides"
+  name = "Getting started"
+  pageRef = "/guides/editing/"
+  weight = 10
+
+[[sample]]
+  parent = "Guides"
+  name = "Adding packages"
+  pageRef = "/guides/packages/"
+  weight = 20
+
+[[sample]]
+  parent = "Guides"
+  name = "Optimization"
+  pageRef = "/guides/optimization/"
+  weight = 30
