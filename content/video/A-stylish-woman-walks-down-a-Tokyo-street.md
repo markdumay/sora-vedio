@@ -4,7 +4,7 @@ tags: ["video", "sora", "human"]
 thumbnail:
     url: https://res.cloudinary.com/dmmgrhix0/image/upload/v1708443812/sora-video/ykyjmv1qtiequju2r5uy.jpg
 date: 2024-02-20T21:48:28+08:00
-draft: true
+draft: false
 ---
 
 ## Video

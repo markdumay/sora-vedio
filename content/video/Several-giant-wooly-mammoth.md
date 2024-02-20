@@ -4,7 +4,7 @@ date: 2024-02-20T23:48:55+08:00
 tags: ["video", "sora", "animal"]
 thumbnail:
     url: https://res.cloudinary.com/dmmgrhix0/image/upload/v1708443938/sora-video/z3j10pgy2tkpjnzfdqc1.jpg
-draft: true
+draft: false
 ---
 
 
