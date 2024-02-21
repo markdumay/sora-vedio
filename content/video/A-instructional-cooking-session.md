@@ -11,7 +11,6 @@ draft: false
 
 {{< youtube e89tKMpkllA >}}
 
-
 ## Prompt
 
 A instructional cooking session for homemade gnocchi hosted by a grandmother social media influencer set in a rustic Tuscan country kitchen with cinematic lighting.
