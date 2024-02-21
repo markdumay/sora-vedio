@@ -1,6 +1,8 @@
 # resourcedir = '../resources/'
 # copyright = "Copyright © 2024 Mark Dumay."
 
+
+
 # additional settings
 baseURL = "https://www.sora-vedio.com/"
 canonifyURLs = false
@@ -78,3 +80,6 @@ home = ["HTML", "RSS", "REDIR"]
     version = 2022
   [minify.tdewolff.html]
     keepWhitespace = true
+
+[[module.imports]]
+path = 'github.com/gethinode/hinode'
