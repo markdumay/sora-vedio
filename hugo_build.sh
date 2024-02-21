@@ -17,4 +17,5 @@ tar -xzf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 
 # run Hugo
 echo "Running Hugo..."
+./hugo mod vendor
 ./hugo --gc --minify
